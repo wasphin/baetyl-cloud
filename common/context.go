@@ -109,7 +109,7 @@ func (c *Context) SetTrace() {
 	k := GetTraceHeader()
 	v := c.Request.Header.Get(k)
 	if v == "" {
-		v = uuid.NewV4().String()
+		v = uuid.Must(uuid.NewV4()).String()
 	}
 	c.Writer.Header().Set(k, v)
 }
