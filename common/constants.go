@@ -91,7 +91,7 @@ const (
 	// DefaultCoreFrequency
 	DefaultCoreFrequency = "20"
 	// DefaultCoreAPIPort
-	DefaultCoreAPIPort = "30050"
+	DefaultCoreAPIPort = "30443"
 	// DefaultAgentPort
 	DefaultAgentPort = "30080"
 	// ComposeVersion compose version
